@@ -2408,6 +2408,11 @@ public final class Settings {
         public static final String INCALL_GLOWPAD_TRANSPARENCY = "incall_glowpad_transparency";
 
         /**
+         * Padding above and below dialpad keys in dialer.
+        */
+        public static final String DIALKEY_PADDING = "dialkey_padding";
+
+        /**
          * Whether the hearing aid is enabled. The value is
          * boolean (1 or 0).
          * @hide
@@ -3849,6 +3854,13 @@ public final class Settings {
          * @hide
          */
         public static final String RECENT_PANEL_EXPANDED_MODE = "recent_panel_expanded_mode";
+
+        /**
+         * Recent panel: Show topmost task
+         *
+         * @hide
+         */
+        public static final String RECENT_PANEL_SHOW_TOPMOST = "recent_panel_show_topmost";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
